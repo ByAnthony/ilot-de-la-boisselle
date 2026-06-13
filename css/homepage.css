@@ -1,0 +1,479 @@
+.top{
+	position: relative;
+    margin: auto 0;
+	width: 100%;
+    height: auto;
+}
+.top-title{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0%;
+
+    animation-name: appearAnim;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.top-title-ilot{
+    font-family: 'Gideon Roman', serif;
+    font-size: 7.1vw;
+    line-height: 5vw;
+    text-transform: uppercase;
+}
+.top-title-la-boisselle{
+    font-family: 'Gideon Roman', serif;
+    font-size: 2.6vw;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.top-title-site{
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+    letter-spacing: -1px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.top-img img{
+    position: relative;
+    margin-top: 115px;
+    left: 0;
+    width: 80%;
+    opacity: 0%;
+
+    animation-name: appearAnim;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.article{
+    margin: 0 auto;
+    padding: 150px 0 150px 0;
+    float: clear;
+    width: 50%;
+    text-align: center;
+}
+.article-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 4vw;
+    text-transform: uppercase;
+}
+.article-desc{
+    font-family: 'Neuton', serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    line-height: 2.5vw;
+}
+.article-link{
+	margin: 75px 0 75px 0;
+}
+.article-link a{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-weight: 900;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	padding: 20px 35px 20px 35px;
+	color: rgb(32, 32, 36);
+	border: 2px solid rgb(32, 32, 36);;
+    text-decoration: none;
+}
+.article-link a:hover{
+	color: rgb(215,215,215);
+	background-color: rgb(32, 32, 36);;
+}
+#myVideo{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.article-images{
+	height: 700px;
+	background-attachment: none;
+	background-position: center center;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+  	overflow: hidden;
+}
+.article-columns-citation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+.article-columns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+.article-columns-img{
+    margin-left: 10%;
+    width: 40%;
+}
+.article-columns-general{
+    margin-left: 10%;
+    width: 30%;
+    font-family: 'Neuton', serif;
+    font-size: 1.5vw;
+    font-weight: 100;
+    line-height: 2.5vw;
+}
+.article-columns-general h4{
+    font-family: 'Neuton', serif;
+    font-size: 2.2vw;
+    font-style: italic;
+    line-height: 4vw;
+}
+.article-columns-general h5{
+    font-family: 'Neuton', serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    line-height: 2.5vw;
+}
+.space{
+    margin: 200px;
+}
+.one-two-column{
+    width: 50%;
+    margin-left: 15%;
+    padding-right: 9px;
+}
+.two-two-column{
+    width: 50%;
+    margin-right: 15%;
+    padding-left: 9px;
+}
+.events{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+		color: rgb(32,32,36);
+}
+.events-line{
+    border-bottom: 1px dotted rgb(32,32,36);
+}
+.events-date{
+    width: 25%;
+    padding: 50px;
+}
+.events-time{
+    width: 5%;
+    padding: 50px;
+}
+.events-desc{
+    width: 70%;
+    padding: 50px;
+}
+.events-date-day{
+    margin: 0;
+    font-family: 'Gideon Roman', serif;
+    font-size: 5vw;
+    line-height: 3.5vw;
+}
+.events-date-month{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    letter-spacing: -1px;
+}
+.events-time-p{
+    margin: 0;
+    font-family: 'Gideon Roman', serif;
+    font-size: 3vw;
+    line-height: 2.5vw;
+}
+.events-time-hour{
+    margin: 0;
+    font-family: 'Gideon Roman', serif;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+.events-desc-p{
+    margin: 0;
+    font-family: 'Neuton', serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    line-height: 2vw;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) and (orientation:portrait) {
+	.top-title{
+        position: relative;
+        top: -20px;
+        left: 45%;
+        width: 55%;
+    }
+    .top-title-ilot{
+        font-size: 17vw;
+        line-height: 11vw;
+    }
+    .top-title-la-boisselle{
+        font-size: 6vw;
+    }
+    .top-title-site{
+        margin-top: 25px;
+        font-size: 2.5vw;
+    }
+    .top-img img{
+        margin-top: 130px;
+    }
+    .article{
+        width: 80%;
+    }
+    .article-title{
+        font-size: 4.5vw;
+        line-height: normal;
+    }
+    .article-desc{
+        font-size: 2.5vw;
+        line-height: normal;
+    }
+    .article-link a{
+        font-size: 20px;
+        padding: 20px 30px 20px 30px;
+        letter-spacing: 0px;
+    }
+    .article-columns-citation{
+        flex-direction: column;
+    }
+    .article-columns-img{
+        margin-right: 10%;
+        width: 60%;
+    }
+    .article-columns-general{
+        margin-left: 20%;
+        width: 60%;
+    }
+    .article-columns-general h4{
+        font-size: 3.5vw;
+        line-height: 5.5vw;
+        text-align: left;
+    }
+    .article-columns-general h5{
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        text-align: left;
+    }
+    .events-date{
+        width: 20%;
+    }
+    .events-time{
+        width: 10%;
+    }
+    .events-desc{
+        width: 70%;
+    }
+    .events-date-day{
+        font-size: 8vw;
+        line-height: 7vw;
+    }
+    .events-date-month{
+        font-size: 2vw;
+    }
+    .events-time-p{
+        font-size: 5.5vw;
+        line-height: 4vw;
+    }
+    .events-time-hour{
+        font-size: 2.5vw;
+    }
+    .events-desc-p{
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) and (orientation:landscape) {
+	.top-title{
+        top: 35%;
+    }
+    .top-title-site{
+        margin-top: 15px;
+        font-size: 2vw;
+    }
+    .top-img img{
+        margin-top: 70px;
+    }
+    .article{
+        width: 80%;
+        padding: 75px 0 75px 0;
+    }
+    .article-title{
+        font-size: 4.5vw;
+        line-height: normal;
+    }
+    .article-desc{
+        font-size: 2.5vw;
+        line-height: normal;
+    }
+    .article-link a{
+        font-size: 20px;
+        padding: 20px 30px 20px 30px;
+        letter-spacing: 0px;
+    }
+    .article-columns-general h4{
+        font-size: 2.5vw;
+        line-height: 4vw;
+    }
+    .article-columns-general h5{
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+    .space{
+        margin: 75px;
+    }
+    .events-date{
+        width: 20%;
+    }
+    .events-time{
+        width: 10%;
+    }
+    .events-desc{
+        width: 70%;
+    }
+    .events-date-day{
+        font-size: 8vw;
+        line-height: 7vw;
+    }
+    .events-date-month{
+        font-size: 2vw;
+    }
+    .events-time-p{
+        font-size: 5.5vw;
+        line-height: 4vw;
+    }
+    .events-time-hour{
+        font-size: 2.5vw;
+    }
+    .events-desc-p{
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .top-title{
+        position: relative;
+        top: -20px;
+        left: 45%;
+        width: 55%;
+    }
+    .top-title-ilot{
+        font-size: 20vw;
+        line-height: 15vw;
+    }
+    .top-title-la-boisselle{
+        font-size: 7vw;
+    }
+    .top-title-site{
+        margin-top: 25px;
+        font-size: 3.5vw;
+    }
+    .top-img img{
+        margin-top: 95px;
+    }
+    .article{
+        padding: 75px 0 75px 0;
+        width: 80%;
+    }
+    .article-title{
+        font-size: 6vw;
+        line-height: normal;
+    }
+    .article-desc{
+        font-size: 5vw;
+        line-height: normal;
+    }
+    .article-link a{
+        font-size: 15px;
+        padding: 15px 25px 15px 25px;
+        letter-spacing: 0px;
+    }
+    .article-columns-citation{
+        flex-direction: column;
+    }
+    .article-columns-img{
+        margin-right: 10%;
+        width: 60%;
+    }
+    .article-columns-general{
+        margin-left: 20%;
+        width: 60%;
+    }
+    .article-columns-general h4{
+        font-size: 5vw;
+        line-height: 8vw;
+        text-align: left;
+    }
+    .article-columns-general h5{
+        font-size: 4vw;
+        line-height: 5.5vw;
+        text-align: left;
+    }
+    .one-two-column{
+        margin-left: 18px;
+    }
+    .two-two-column{
+        margin-right: 18px;
+    }
+    .space{
+        margin: 75px;
+    }
+    .events{
+        margin: 15px 0 15px 0;
+    }
+    .events-date{
+        width: 25%;
+        padding: 10px;
+    }
+    .events-time{
+        width: 15%;
+        margin-top: 3px;
+        padding: 10px;
+    }
+    .events-desc{
+        width: 60%;
+        padding: 10px;
+    }
+    .events-date-day{
+        font-size: 7vw;
+        line-height: 6vw;
+    }
+    .events-date-month{
+        font-size: 3.5vw;
+    }
+    .events-time-p{
+        font-size: 5.5vw;
+        line-height: 4vw;
+    }
+    .events-time-hour{
+        font-size: 2.5vw;
+    }
+    .events-desc-p{
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+}

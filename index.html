@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>&Icirc;lot de La Boisselle</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/navBar.css">
+<link rel="stylesheet" href="./css/homepage.css">
+
+<link rel="shortcut icon" href="./img/favicon/favicon.ico">
+<link rel="apple-touch-icon" href="./img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="https://www.ilotdelaboisselle.com/"><img src="./img/amis-ilot.png" alt="Homepage"></a>
+        </div>
+        <div class="menu">
+            <div class="languages">
+                <a href="./en/">English</a>
+            </div>
+            <div class="nav">
+                <label for="check">
+                    <input type="checkbox" id="check" onclick="openNav(this)"/>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </label>
+            </div>
+        </div>
+        <div id="myNav" class="overlay">
+            <div id="myContent" class="overlay-content">
+                <div class="container">
+                    <a href="./histoire.html">Le champ de bataille</a>
+                    <a href="./visite.html">Pr&eacute;parer votre visite</a>
+                    <a href="./les-amis.html">Les Amis de l'&Icirc;lot</a>
+                    <a href="./agenda.html">Agenda</a>
+                </div>
+                <div class="overlay-footer">
+                    <div class="overlay-footer-social">
+                        <a href="https://www.facebook.com/ilotdelaboisselle" target="_blank"><img src="./img/facebook.png"></a>
+                    </div>
+                    <div class="overlay-footer-contact">
+                        <a href="mailto: info@ilotdelaboisselle.com">info@<span class="footer-bold">ilotdelaboisselle</span>.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="top">
+        <div class="top-img"><img src="./img/ilot-today.jpg"></div>
+        <div class="top-title">
+            <span class="top-title-ilot">&icirc;lot</span>
+            <span class="top-title-la-boisselle">La Boisselle</span>
+            <span class="top-title-site">Site historique 1914-18</span>
+        </div>
+    </div>
+
+    <div class="article">
+        <h2 class="article-title">Au c&oelig;ur du champ<br/>de bataille de la Somme</h2>
+		<p class="article-desc">Le site de l'&icirc;lot est l'une des sections les mieux pr&eacute;serv&eacute;s de la ligne de front de la Premi&egrave;re Guerre mondiale. Les vestiges tant en surface qu'en sous-sol constituent un t&eacute;moignage vibrant des soldats fran&ccedil;ais, allemands et britanniques qui s'y sont battus.</p>
+		<p class="article-link"><a href="./histoire.html">En savoir&nbsp;+</a></p>
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="./img/ilot_site.mp4" type="video/mp4">
+    </video>
+
+    <div class="article">
+        <h2 class="article-title">&agrave; deux pas du<br/>crat&egrave;re de la Grande Mine</h2>
+		<p class="article-desc">Le site historique de l'&icirc;lot est ouvert &agrave; la visite sur rendez-vous uniquement aupr&egrave;s des Amis de l'&icirc;lot de La Boisselle. Venez profiter d'une exp&eacute;rience unique en compagnie d'un guide privil&eacute;gi&eacute; dans les pas des soldats qui se sont succ&eacute;d&eacute;s &agrave; l'&icirc;lot.</p>
+		<p class="article-link"><a href="./visite.html">En savoir&nbsp;+</a></p>
+    </div>
+
+    <div class="article-columns-citation">
+        <div class="article-columns-img">
+            <p><img src="./img/ilot-grande-mine.jpg" alt="L'ilot et la Grande Mine" width="100%"></p>
+        </div>
+        <div class="article-columns-general">
+            <h4>&laquo;&nbsp;On ne saurait se faire une id&eacute;e de ce qu&#39;&eacute;tait alors l&#39;&icirc;lot de La Boisselle&nbsp;: un enfer, disaient les occupants&nbsp;; dans un domaine plus mat&eacute;riel, un chaos indescriptible de pierres, de bois, de briques, d&#39;objets de toutes sortes&nbsp;[&hellip;] mais nos hommes y vivaient, y luttaient, s&#39;y cramponnaient.&nbsp;&raquo;</h4>
+			<h5>Commandant Thomas, d&eacute;cembre 1914<br />Compagnie du G&eacute;nie fran&ccedil;ais 11/4</h5>
+        </div>
+    </div>
+
+    <div class="article">
+        <h2 class="article-title">Pr&eacute;server le patrimoine,<br/>r&eacute;v&eacute;ler l'histoire</h2>
+		<p class="article-desc">Une convention de mise &agrave; disposition du site de l'&icirc;lot, pour une dur&eacute;e de 50 ans, a &eacute;t&eacute; sign&eacute;e le 14&nbsp;d&eacute;cembre 2013 par les propri&eacute;taires du terrain afin d'aider les Amis de l'&icirc;lot &agrave; valoriser cet ancien secteur du front de la Somme et &agrave; transmettre le souvenir des soldats disparus.</p>
+		<p class="article-link"><a href="./les-amis.html">En savoir&nbsp;+</a></p>
+    </div>
+
+    <div class="article-columns">
+        <div class="one-two-column">
+            <p><img src="./img/index-5.jpg" alt="Visite guidée par les Amis de l'îlot" width="100%"></p>
+            <p><img src="./img/index-6.jpg" alt="Entretien du site" width="100%"></p>
+            <p><img src="./img/index-7.jpg" alt="Construire le bleuet géant pour le Tour de France" width="100%"></p>
+            <p><img src="./img/index-8.jpg" alt="Le bleuet géant pour le Tour de France" width="100%"></p>
+        </div>
+        <div class="two-two-column">
+            <p><img src="./img/index-9.jpg" alt="Alte Armee à l'îlot" width="100%"></p>
+            <p><img src="./img/index-10.jpg" alt="Concert à l'îlot" width="100%"></p>
+            <p><img src="./img/index-11.jpg" alt="Pose du panneau d'interprétation" width="100%"></p>
+            <p><img src="./img/index-12.jpg" alt="Troupe de reconstitution à l'îlot" width="100%"></p>
+        </div>
+    </div>
+    <div class="space"></div>
+
+    <div class="footer">
+        <div class="address">
+            <p><span class="footer-bold">&Icirc;lot de La Boisselle</span></p>
+            <p>Rue de la 34e Division</p>
+            <p>80 300 La Boisselle</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/ilotdelaboisselle" target="_blank"><img src="./img/facebook.png"></a>
+        </div>
+        <div class="contact">
+            <a href="mailto: info@ilotdelaboisselle.com">info@<span class="footer-bold">ilotdelaboisselle</span>.com</a>
+            <p>#<span class="footer-bold">ilotdelaboisselle</span></p>
+        </div>
+    </footer>
+
+    <script src="./js/animation.js"></script>
+
+</body>
+</html>

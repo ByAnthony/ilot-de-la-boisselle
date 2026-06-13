@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+		<url>
+			<loc>http://www.ilotdelaboisselle.com/</loc>
+			<lastmod>2021-26-01</lastmod>
+			<changefreq>monthly</changefreq>
+			<priority>1</priority>
+		</url>
+		
+				<url>
+					<loc>http://www.ilotdelaboisselle.com/histoire.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+				
+				<url>
+					<loc>http://www.ilotdelaboisselle.com/visite.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+				
+				<url>
+					<loc>http://www.ilotdelaboisselle.com/les-amis.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+				
+				<url>
+					<loc>http://www.ilotdelaboisselle.com/agenda.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+		
+		<url>
+			<loc>http://en.ilotdelaboisselle.com/</loc>
+			<lastmod>2021-26-01</lastmod>
+			<changefreq>monthly</changefreq>
+			<priority>1</priority>
+		</url>
+
+                <url>
+					<loc>http://en.ilotdelaboisselle.com/history.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+				
+				<url>
+					<loc>http://en.ilotdelaboisselle.com/visit.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+				
+				<url>
+					<loc>http://en.ilotdelaboisselle.com/the-friendship.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+				
+				<url>
+					<loc>http://en.ilotdelaboisselle.com/calendar.html</loc>
+					<lastmod>2021-26-01</lastmod>
+					<changefreq>monthly</changefreq>
+					<priority>1</priority>
+				</url>
+
+	</urlset>

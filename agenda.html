@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>&Icirc;lot de La Boisselle - Agenda</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/navBar.css">
+<link rel="stylesheet" href="./css/homepage.css">
+<link rel="stylesheet" href="./css/histoire.css">
+
+<link rel="shortcut icon" href="./img/favicon/favicon.ico">
+<link rel="apple-touch-icon" href="./img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="https://www.ilotdelaboisselle.com/"><img src="./img/amis-ilot.png" alt="Homepage"></a>
+        </div>
+        <div class="menu">
+            <div class="languages">
+                <a href="./en/calendar.html">English</a>
+            </div>
+            <div class="nav">
+                <label for="check">
+                    <input type="checkbox" id="check" onclick="openNav(this)"/>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </label>
+            </div>
+        </div>
+        <div id="myNav" class="overlay">
+            <div id="myContent" class="overlay-content">
+                <div class="container">
+                    <a href="./histoire.html">Le champ de bataille</a>
+                    <a href="./visite.html">Pr&eacute;parer votre visite</a>
+                    <a href="./les-amis.html">Les Amis de l'&Icirc;lot</a>
+                    <a href="./agenda.html">Agenda</a>
+                </div>
+                <div class="overlay-footer">
+                    <div class="overlay-footer-social">
+                        <a href="https://www.facebook.com/ilotdelaboisselle" target="_blank"><img src="./img/facebook.png"></a>
+                    </div>
+                    <div class="overlay-footer-contact">
+                        <a href="mailto: info@ilotdelaboisselle.com">info@<span class="footer-bold">ilotdelaboisselle</span>.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="top-histoire">
+        <div class="top-img-histoire"><img src="./img/events-2.jpg"></div>
+        <div class="top-title-histoire">
+            <span class="top-title-ilot-histoire">&icirc;lot</span>
+            <span class="top-title-la-boisselle-histoire">La Boisselle</span>
+            <span class="top-title-site-histoire">Agenda</span>
+        </div>
+    </div>
+
+    <div class="article">
+        <h2 class="article-title">Nos prochains<br/>&eacute;v&eacute;nements</h2>
+        <br/>
+        <!-- <div class="events">
+            <div class="events-date">
+                <p class="events-date-day">5</p>
+                <p class="events-date-month">f&eacute;vrier</p>
+            </div>
+            <div class="events-time">
+                <p class="events-time-p">10<span class="events-time-hour">h</span></p>
+                <p class="events-time-p">12<span class="events-time-hour">h</span></p>
+            </div>
+            <div class="events-desc">
+                <p class="events-desc-p">Assembl&eacute;e G&eacute;n&eacute;rale des Amis de l'&icirc;lot</p>
+            </div>
+        </div>
+        <div class="events-line"></div> -->
+        <div class="events">
+            <div class="events-date">
+                <p class="events-date-day">28</p>
+                <p class="events-date-month">juin</p>
+            </div>
+            <div class="events-time">
+                <p class="events-time-p">10<span class="events-time-hour">h</span></p>
+                <p class="events-time-p">17<span class="events-time-hour">h</span></p>
+            </div>
+            <div class="events-desc">
+                <p class="events-desc-p">Journ&eacute;es du Patrimoine de Pays & des Moulins</p>
+            </div>
+        </div>
+        <div class="events-line"></div>
+        <div class="events">
+            <div class="events-date">
+                <p class="events-date-day">29</p>
+                <p class="events-date-month">juin</p>
+            </div>
+            <div class="events-time">
+                <p class="events-time-p">10<span class="events-time-hour">h</span></p>
+                <p class="events-time-p">17<span class="events-time-hour">h</span></p>
+            </div>
+            <div class="events-desc">
+                <p class="events-desc-p">Journ&eacute;es du Patrimoine de Pays & des Moulins</p>
+            </div>
+        </div>
+        <div class="events-line"></div>
+        <div class="events">
+            <div class="events-date">
+                <p class="events-date-day">1</p>
+                <p class="events-date-month">juillet</p>
+            </div>
+            <div class="events-time">
+                <p class="events-time-p">10<span class="events-time-hour">h</span></p>
+                <p class="events-time-p">17<span class="events-time-hour">h</span></p>
+            </div>
+            <div class="events-desc">
+                <p class="events-desc-p">Comm&eacute;morations de la bataille de la Somme 1916</p>
+            </div>
+        </div>
+        <div class="events-line"></div>
+        <div class="events">
+            <div class="events-date">
+                <p class="events-date-day">20</p>
+                <p class="events-date-month">septembre</p>
+            </div>
+            <div class="events-time">
+                <p class="events-time-p">10<span class="events-time-hour">h</span></p>
+                <p class="events-time-p">17<span class="events-time-hour">h</span></p>
+            </div>
+            <div class="events-desc">
+                <p class="events-desc-p">Journ&eacute;es Europ&eacute;ennes du Patrimoine</p>
+            </div>
+        </div>
+        <div class="events-line"></div>
+        <div class="events">
+            <div class="events-date">
+                <p class="events-date-day">21</p>
+                <p class="events-date-month">septembre</p>
+            </div>
+            <div class="events-time">
+                <p class="events-time-p">10<span class="events-time-hour">h</span></p>
+                <p class="events-time-p">17<span class="events-time-hour">h</span></p>
+            </div>
+            <div class="events-desc">
+                <p class="events-desc-p">Journ&eacute;es Europ&eacute;ennes du Patrimoine</p>
+            </div>
+        </div>
+        <div class="events-line"></div>
+        <div class="events">
+            <div class="events-date">
+                <p class="events-date-day">11</p>
+                <p class="events-date-month">novembre</p>
+            </div>
+            <div class="events-time">
+                <p class="events-time-p">10<span class="events-time-hour">h</span></p>
+                <p class="events-time-p">17<span class="events-time-hour">h</span></p>
+            </div>
+            <div class="events-desc">
+                <p class="events-desc-p">Comm&eacute;morations de l'Armistice de la Grande Guerre</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="address">
+            <p><span class="footer-bold">&Icirc;lot de La Boisselle</span></p>
+            <p>Rue de la 34e Division</p>
+            <p>80 300 La Boisselle</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/ilotdelaboisselle" target="_blank"><img src="./img/facebook.png"></a>
+        </div>
+        <div class="contact">
+            <a href="mailto: info@ilotdelaboisselle.com">info@<span class="footer-bold">ilotdelaboisselle</span>.com</a>
+            <p>#<span class="footer-bold">ilotdelaboisselle</span></p>
+        </div>
+    </footer>
+
+    <script src="./js/animation.js"></script>
+
+</body>
+</html>
